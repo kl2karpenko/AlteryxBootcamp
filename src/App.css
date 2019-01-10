@@ -22,6 +22,17 @@
   color: #61dafb;
 }
 
+body, html {
+  height: 100vh;
+  background: #7986cb;
+}
+
+#root {
+  min-height: 100vh;
+  max-width: 1090px;
+  margin: 0 auto;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
